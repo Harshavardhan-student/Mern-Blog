@@ -1,0 +1,174 @@
+*{
+  box-sizing: border-box;
+}
+
+main{
+     padding:10px;
+     max-width: 1100px;
+     margin: 0px auto;
+}
+
+img{
+  max-width: 90%;
+}
+body{
+  color:#333;
+}
+
+header{
+  display:flex;
+  justify-content: row;
+  margin-bottom:50px;
+  margin-top: 20px;
+  gap:65%;
+}
+
+header a{
+  text-decoration: none;
+  color:inherit;
+
+}
+
+header a.logo{
+  font-weight:bold;
+}
+
+
+header nav{
+  display:flex;
+  gap:15px;
+}
+
+div.post{
+  max-width: 80%;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+div.post div.texts h2{
+   margin: 0px ;
+   text-decoration: none;
+   font-size: 1.5rem;
+}
+
+div.post div.texts a{
+  text-decoration: none;
+  color:inherit
+}
+
+div.post p.info{
+  margin: 6px 0px;
+  font-size:0.7rem;
+  color:#888;
+  font-weight: bold;
+  display:flex;
+  gap: 10px ;
+}
+
+div.post p.info a.author{
+  color:#333;
+}
+
+div.post p.summary{
+   margin:10px 0px;
+   line-height: 1.5rem;
+}
+
+form.login,form.register{
+   max-width: 400px;
+   margin: 0px auto;
+}
+
+input{
+  border:0px;
+  display: block;
+  margin-bottom: 10px;
+  border:2px solid #ddd;
+  width: 100%;
+  padding: 5px 7px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+button{
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  background-color: #555;
+  border: 0px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 7px 0;
+}
+
+form.login,form.register h1{
+  text-align: center;
+}
+
+div.post-page div.image{
+    max-height: 600px;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+div.post-page div.image img{
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}
+
+div.post-page a{
+  color: #333;
+  text-decoration: underline;
+}
+
+div.post-page h1{
+  text-align: center;
+  margin: 10px 0 5px;
+}
+
+div.post-page time{
+  text-align: center;
+  display: block;
+  font-size: .7rem;
+  color: #777;
+}
+
+div.post-page div.author{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+div.post-page div.content p{
+  line-height: 1.6rem;
+}
+
+div.edit-row{
+  text-align: center;
+}
+
+div.post-page a.edit-btn{
+  background-color: #333;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+a svg{
+  height: 24px;
+}
+
+a{
+  cursor: pointer;
+}
